@@ -37,8 +37,8 @@
 	<!-- 主体 -->
 	
 <div id="main">
-		<div id="right"></div>
-		<div id="left"><!--id=liftside 表示左半部分-->
+		<div id="rightside"></div>
+		<div id="leftside"><!--id=liftside 表示左半部分-->
 			
     	
     	<p>请输入您要查询的序列</p>

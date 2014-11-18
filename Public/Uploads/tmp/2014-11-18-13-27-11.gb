@@ -1,0 +1,22 @@
+LOCUS       agt830.5                 654 bp    DNA              UNA 09-APR-2014
+DEFINITION  agt830.5.
+ACCESSION   geneious|urn:local:
+VERSION     geneious|urn:local:  GI:geneious|urn:local:.:1rf-3ka9em8:1
+KEYWORDS    .
+SOURCE      
+  ORGANISM   .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 tacatccgca ataggggttt tcagtactac caagaagatt gtgaagatat taacagcatt
+       61 gaaaaaagtt cggactgggc atgaaacgtg tgtcagagtt agagtccttg agggactgaa
+      121 tgggtttgtc ccaggcccaa gcttgaggtg gatgtcacct cgggtactgc ctctattaca
+      181 gaggtatctt aatggcgcat ccagccttgt ggctgggtct acgtacgcgt gggcaccata
+      241 cgtatgttgg caggaaaggt caatcatgct tgtttcctcg tcgcagaaac gttcacacta
+      301 ttggctcgcg ggatcgaacg ggcctgatta tttttccagc tcctgcgttc ctatcacgcc
+      361 aactgtcgct aataaaatgt tatatagaga taacccattg ctatgcaagg atggagaaac
+      421 cgcttcacaa caccctagaa ttacttcagc acaagggctc tatccgaata gcacaaaact
+      481 cagtcctagt gcgtataggt cgtgctctgc ggttatacgc tccacagaag aaagtaccca
+      541 ctgcagtttg tcggtgggac ttagcaaaac ctgtaaccaa aaccgcacat ggactctgtt
+      601 ttggtggcgt ggagtgtgcc cgccgccttt atgctgggtc aaaataggat atga
+//

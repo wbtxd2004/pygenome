@@ -6,7 +6,7 @@ from http://www.free-css-templates.com
 /* Reset all margins and paddings for browsers */
 * { 
 	padding: 0;
-	margin: 0;
+	margin: 0; 
 }
 
 body { 

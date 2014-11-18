@@ -37,8 +37,8 @@
 	<!-- 主体 -->
 	
 <div id="main">
-		<div id="right"></div>
-		<div id="left"><!--id=liftside 表示左半部分-->
+		<div id="rightside"></div>
+		<div id="leftside"><!--id=liftside 表示左半部分-->
 			
     	<h1>扇贝基因组数据库测试系统</h1>
 		<h2>Ocean University Of China</h2>

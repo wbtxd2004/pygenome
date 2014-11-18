@@ -1,0 +1,32 @@
+LOCUS       agt221.5                1253 bp    DNA              UNA 09-APR-2014
+DEFINITION  agt221.5.
+ACCESSION   geneious|urn:local:
+VERSION     geneious|urn:local:  GI:geneious|urn:local:.:1rf-3ka9em8:4
+KEYWORDS    .
+SOURCE      
+  ORGANISM   .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 tccatcggca ataggggtta tcagtactac caagaagatt gtgaagatat taacagcatt
+       61 gaaaaaagtt cggactgggc atgaaacgtg tgtcagagtt agagtccttg agggactgaa
+      121 tgggtttgtc ccaggcccaa gcttgaggtg gatgtcacct cgggtactgc ctctattaca
+      181 gaggtatctt aatggcgcat ccagccttgt ggctgggtct acgtacgcgt gggcaccata
+      241 cgtatgttgg caggaaaggt caatcatgct tgtttcctcg tcgcagaaac gttcacacta
+      301 ttggctcgcg ggatcgaacg ggcctgatta tttttccagc tcctgcgttc ctatcacgcc
+      361 aactgtcgct aataaaatgt tatatagaga taacccattg ctatgcaagg atggagaaac
+      421 cgcttcacaa caccctagaa ttacttcagc attcttccct gcatcttccg gattccttct
+      481 tcttgtcgga gaattcgccg ctcgatcaaa ctcatcattg gtacttattg accgtttcat
+      541 gctattacac cggtacactg atgataacgc tgcggtttta tcccccccaa tacgcgcaca
+      601 cacgcttctt tcggtgcgtc ctgtcgtacc cctattgcgc atcatggcac tccagccgag
+      661 caatgctttg gacaggtgta accaagctgg atctagcgtg ggttcgacac agctcggttc
+      721 gtataaccac acgcatgaac tgcgagtgcc tcgccccagc gccgctgtct acttgctgtt
+      781 tagaggaaga agcaacagct tgcacccaat ccgcatatct gcatataggt ggccgttcct
+      841 ccgtggcgcg ccgctacgtt gtagcgcacg gatcaaaagc gctgtgttac tatacactgg
+      901 ttcggagacg gttcatgacg agcgcgctat atgtcggcat ctgcgcccca tgccctcgcg
+      961 gtttcaaaaa gaaccaaagt ctataccatc cttgttccca attctgcctg gttgcggaga
+     1021 aaagaccgcc tccatacgta cccgactcgg tattggtaag tggggaagca gtcgaacgca
+     1081 tatttcttgg ttatatcaca ggccacgttc tatatcggaa gtggccggat tacgatttga
+     1141 cgttctatcc ccgagagcgc attcttgttt gttactacta ccacgcgggc gcttcttatt
+     1201 cccagaccag agggaatgtg cggaagcttt ttccacagat tggcggaact cca
+//

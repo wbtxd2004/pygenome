@@ -37,12 +37,20 @@
 	<!-- 主体 -->
 	
 <div id="main">
-		<div id="right"></div>
-		<div id="left"><!--id=liftside 表示左半部分-->
-			
-    	
-    	<div>ddd</div>
-    
+		<div id="rightside"></div>
+		<div id="leftside"><!--id=liftside 表示左半部分-->
+				
+   	<div>
+	   	<pre>
+	    	<?php
+ $result=$_SESSION['result']; echo readfile($result); ?>
+	    </pre>
+	    <br/>
+	    <form action="/~wubin/pygenome/index.php/Home/Search/downfile" method="post" >
+		<input type="submit" value="Save file" />
+		</form>
+    </div>
+  
 
 		</div>
 </div>

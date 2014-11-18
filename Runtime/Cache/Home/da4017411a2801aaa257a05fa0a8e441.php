@@ -37,11 +37,29 @@
 	<!-- 主体 -->
 	
 <div id="main">
-		<div id="right"></div>
-		<div id="left"><!--id=liftside 表示左半部分-->
+		<div id="rightside"></div>
+		<div id="leftside"><!--id=liftside 表示左半部分-->
 			
     	
-    	<div>ddd</div>
+    	<div>
+    		<table border="0" align="center">
+	    		<tr>
+		    		<th>ID.num</th>
+		    		<th>NAME</th>
+		    		<th>DETAIL</th>
+	    		</tr>
+    		<?php if(is_array($list)): foreach($list as $key=>$v): ?><tr>
+    				<td align="center"><?php echo ($v["bioentry_id"]); ?></td>
+    				<td align="center"><?php echo ($v["length"]); ?></td>
+    				<td align="center"><a href="/~wubin/pygenome/index.php/Home/Search/detail/name/<?php echo ($v["name"]); ?>">detail</a></td>
+    			</tr>
+				<!--
+				<a herf="/~wubin/pygenome/index.php/Search/detail"> <?php echo ($v["bioentry_id"]); ?>.<?php echo ($v["name"]); ?> </a>
+				<a href="http://www.baidu.com">baidu</a><br/> 
+				<a href="/~wubin/pygenome/index.php/Home/Search/detail">detail</a> <br/>
+				--><?php endforeach; endif; ?>
+			</table>
+    	</div>
     
 
 		</div>
