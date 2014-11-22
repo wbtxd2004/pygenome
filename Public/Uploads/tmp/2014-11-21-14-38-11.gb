@@ -1,0 +1,28 @@
+LOCUS       hete_35821914           1000 bp    DNA              UNK 01-JAN-1980
+DEFINITION  hete_35821914
+ACCESSION   hete_35821914
+VERSION     hete_35821914  GI:hete_35821914
+KEYWORDS    .
+SOURCE      
+  ORGANISM  . .
+            . .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 acaaatatta acatgaaatc aaggtagcta aatttcattt aatgcctact ataggcacct
+       61 gtaatttatc atttttaagc ttatatatat gagaccattc aaagcgcgag tagattacag
+      121 catcatatca aatcaaatgc attacgacaa acaataaatc ccccgcgtac aatacaacta
+      181 caccactaaa tccctcatac taatattaat acccggcctc ctctgccctg gccaggtatt
+      241 ttctgacgac acaatatata aaaaaaatct ctcgtcgtca gaaagctacc ttgtcacagc
+      301 agtatttggt taaatcggcc caaggtaata tcgtatacat gtatatatgt taaatacatg
+      361 ggaaatatac atttataagt acaattgtat ttaaataaat atattaaagg atttatttaa
+      421 ctgagtagct cataattaac tctcgagtac ctcatgatca tcaccgcctc gactccaggt
+      481 atacgtagcc aatcaaatgt attgatcact cacgcaattg atgataaata ttattgattt
+      541 tcttggacaa tccagagatg tgtccactac acatccctgg acaatcactt tcaatcgact
+      601 tgcatcaatt gaacaacgat cgatccactt tgcaccttat catcatgagt aacaactgtt
+      661 tatattgtga ccttgtggtg aggtcgagac agcctgcgtt gcagtgcgac agatgttaac
+      721 tcaggacatt gtgatgctgg tatgtaattc aaatatattt tcaaattata gccgaaaata
+      781 tggtttaatt aaatacaaga tacaagaatt tctttcggca ataaaaggaa taaattctta
+      841 aacgttttta aagtaacttg atttcattag atacttttag cccgtttgta tgacaataac
+      901 ataatgaaaa gacgaacaaa tagtatataa tgaaatcaag tttctttaaa tatgtatatt
+      961 ccatttatgg ccgaaatatg gtttcatttg atactagcgc
+//

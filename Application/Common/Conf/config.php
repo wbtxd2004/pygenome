@@ -8,7 +8,7 @@ return array(
 
     'DB_TYPE'   => 'mysql', 
     'DB_HOST'   => 'localhost',
-    'DB_NAME'   => 'pytest',
+    'DB_NAME'   => 'py_genome',
     'DB_USER'   => 'wubin',
     'DB_PWD'    => 'wubin',
     'DB_PORT'   => '3306', 

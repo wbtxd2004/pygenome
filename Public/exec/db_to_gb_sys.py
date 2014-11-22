@@ -21,8 +21,8 @@ def main(date,path,target):
 	output = path+date+'.gb'
 	print output
 	handle = open(output,"w")
-	server = BioSeqDatabase.open_database(driver=driver, user=user, passwd=passwd, host=host, db="pytest")
-	db = server["pygenome_db"]
+	server = BioSeqDatabase.open_database(driver=driver, user=user, passwd=passwd, host=host, db="py_genome")
+	db = server["pygenome"]
 	#target="agt830.5"
 	#record = db.lookup(name  = target)
 	record = db.lookup(name  = target)

@@ -37,22 +37,29 @@ class SearchController extends Controller {
 
     public function listresult(){
     	//列出查询到的结果，并显示出来，点击可以查看细节
-    	//$city=M('biosequence');
+    	//$Seq=M('biosequence');
     	//$Seqdb=M('biosequence');
     	$Entry=M('bioentry');
     	$sequence=I('post.sequence','');
-    	//echo $sequence;
-    	$map['biosequence.seq']=array('like',"%$sequence%");
-    	$list=$Entry->join('biosequence ON bioentry.bioentry_id = biosequence.bioentry_id' )->where($map)->select();
-    	//dump($list);
-    	//$seq=$list->where($map)->select();
-    	//dump($seq);
+    	if ($sequence != '') {
+    		# code...
+    		//echo $sequence;
+	    	$map['biosequence.seq']=array('like',"%$sequence%");
+	    	$list=$Entry->join('biosequence ON bioentry.bioentry_id = biosequence.bioentry_id' )->where($map)->select();
+	    	//dump($list);
+	    	//$list=$Entry->where($map)->select();
+	    	//dump($seq);
 
-	    //$arr=$Entry->select();
-	    //dump($arr);
-	    //dump($arr);
-		$this->assign('list',$list);
-    	$this->display();
+		    //$arr=$Entry->select();
+		    //dump($arr);
+		    //dump($arr);
+			$this->assign('list',$list);
+	    	$this->display();
+    	}
+    	else{
+    		#$this->display('error');
+    		$this->success('操作失败,请输入序列内容','index',3);
+    	}
     }
 
     public function temp (){
@@ -105,22 +112,15 @@ class SearchController extends Controller {
        	$this->display();
     }
 
-    public function download ($resulturl){
-		ob_start(); 
-		$filename=$resulturl;
-		$date=date("Ymd-H:i:m");
-		header( "Content-type:  application/octet-stream "); 
-		header( "Accept-Ranges:  bytes "); 
-		header( "Content-Disposition:  attachment;  filename= {$date}.gb"); 
-		$size=readfile($filename); 
-		header( "Accept-Length: " .$size);
-    }
-
     public function downfile (){
     	$url=session('result');
  		//echo $url;
  		download($url);
 
+ 	}
+
+ 	public function error (){
+ 		$this->display();
  	}
     
 }
